@@ -112,6 +112,7 @@ var TagMap = map[string]Validator{
 	"port":           IsPort,
 	"ipv4":           IsIPv4,
 	"ipv6":           IsIPv6,
+	"cidr":           IsCIDR,
 	"dns":            IsDNSName,
 	"host":           IsHost,
 	"mac":            IsMAC,
